@@ -1,2 +1,2 @@
 FROM nginx
-COPY CICDLab/dist /usr/share/nginx/html
+COPY CICDLab/dist/* /usr/share/nginx/html
